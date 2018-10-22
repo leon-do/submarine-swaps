@@ -20,7 +20,7 @@ lncli -n testnet unlock
 
 `node app.js`
 
-client sends request
+client has bitcoin and wants ethereum. sends request
 ![](https://i.imgur.com/WZrFuzg.png)
 
 response

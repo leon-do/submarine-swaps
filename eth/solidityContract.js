@@ -4,7 +4,7 @@ pragma solidity ^0.4.0;
 
 contract HTLC { 
     /* duration of contract */
-    uint public lockTime = 1 seconds;
+    uint public lockTime = 1 hours;
     /* send ETH toAddress */
     address public toAddress = ${toAddress}; 
     /* '0x' + sha256('password') */

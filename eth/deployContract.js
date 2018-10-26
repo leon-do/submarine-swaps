@@ -28,6 +28,8 @@ async function deployContract(args) {
     value: ethers.utils.parseEther(value.toString())
   })
 
+  await contract.deployed()
+
   return {
     address: contract.address,
     abi,

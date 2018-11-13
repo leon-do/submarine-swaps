@@ -7,14 +7,16 @@ contract HTLC {
     uint public lockTime = 1 hours;
     /* send ETH toAddress */
     address public toAddress = ${toAddress}; 
-    /* the key required to spend the bitcoin transaction example: 0xa492d599fb01a1801f3b810b0f8fd8e3efe9725ecbbe43e7341333c86407fab7 */
-    bytes32 public key; 
-    /* sha256('0xa492d599fb01a1801f3b810b0f8fd8e3efe9725ecbbe43e7341333c86407fab7') */
-    bytes32 public hash = 0x829737b3a9e8f4f58167ff3105d211dedfec64cddfc091444283592b9dfdac12; 
+    /* '0x' + sha256('password') */
+    bytes32 public hash = 0x${hash}; 
     /* contract starts now */
     uint public startTime = now;
     /* return address in case the contract times out */
     address public fromAddress; 
+    /* the "password" required to spend the bitcoin transaction */
+    bytes32 public key; 
+    /* the amount in the contract */
+    uint public fromValue; 
    
     /* the amount in the contract */
     uint public fromValue; 

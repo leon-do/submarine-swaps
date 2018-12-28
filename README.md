@@ -23,6 +23,18 @@ lncli -n testnet unlock
 client has bitcoin and wants ethereum. sends request
 ![](https://i.imgur.com/WZrFuzg.png)
 
+server generates invoice:
+```
+{ chain_address: undefined,
+     created_at: '2018-12-28T20:56:42.069Z',
+     description: undefined,
+     id: '685db6a78d5af37aae9cb7531ffc034444a562c774e54a73201cc17d7388fcbd',
+     request: 'lntb10n1pwzdrs2pp5dpwmdfudtteh4t5ukaf3llqrg3z22ck8wnj55ueqrnqh6uuglj7sdqqcqzystyjwn8lk97vt5gupnxfw76ytt4m7jsjkq20fu09j9jdnqugr0etzv6aqjl4esrqvpxpydw9t2elg5qun6zzhwsdu5pdraty9kmg07lsqtgmfl7',
+     secret: 'c104ac676ab0b9005222043de34195f6666d92382e1e161eac7c9358f6eddeb0',
+     tokens: 1,
+     type: 'invoice' }
+```
+
 response
 ![](https://i.imgur.com/p4PF7Q6.png)
 

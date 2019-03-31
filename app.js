@@ -23,6 +23,7 @@ const unlockContract = require('./eth/unlockContract')
 // shitty database
 const shittyDb = {
   '208a42118b2f812aef8cc387a75d1c97568aae457c92f33cebf1971bdb318a28': {
+    secret: '208a42118b2f812aef8cc387a75d1c97568aae457c92f33cebf1971bdb318a28',
     contractAddress: '0xf89b56767208cE46E09F0DBbaC264CADA32Ec616',
     bytecode: 111,
     abi: [123, 456]

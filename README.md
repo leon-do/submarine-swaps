@@ -1,12 +1,4 @@
--------- references --------
-
-https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md
-
-https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-1-can-i-compile-and-run-a-node-cd3138c68c15
-
-https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-3-paying-for-goods-and-services-5d9c492b0eb2
-
--------- setup --------
+## Setup
 
 btcd --testnet --rpcuser=REPLACEME --rpcpass=REPLACEME
 
@@ -16,7 +8,7 @@ lncli -n testnet create
 
 lncli -n testnet unlock
 
--------- ln-service --------
+## ln-service
 
 `node app.js`
 

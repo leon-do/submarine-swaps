@@ -1,5 +1,5 @@
 function solitityContract(toAddress, hash) {
-return `
+  return `
 pragma solidity ^0.4.0; 
 
 contract HTLC { 
@@ -44,7 +44,7 @@ contract HTLC {
     } 
 
 }
-`
+`;
 }
 
-module.exports  = solitityContract
+module.exports = solitityContract;

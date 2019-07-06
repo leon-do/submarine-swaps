@@ -1,16 +1,16 @@
 ## Setup
 
-btcd --testnet --rpcuser=REPLACEME --rpcpass=REPLACEME
+`$ btcd --testnet --rpcuser=REPLACEME --rpcpass=REPLACEME`
 
-lnd --bitcoin.active --bitcoin.testnet --debuglevel=debug --btcd.rpcuser=REPLACEME --btcd.rpcpass=REPLACEME --externalip=127.0.0.1:18334
+`$ lnd --bitcoin.active --bitcoin.testnet --debuglevel=debug --btcd.rpcuser=REPLACEME --btcd.rpcpass=REPLACEME --externalip=127.0.0.1:18334`
 
-lncli -n testnet create
+`$ lncli -n testnet create`
 
-lncli -n testnet unlock
+`$ lncli -n testnet unlock`
 
 ## ln-service
 
-`node app.js`
+`$ node app.js`
 
 client has bitcoin and wants ethereum. sends request
 ![](https://i.imgur.com/WZrFuzg.png)
